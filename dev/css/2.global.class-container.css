@@ -1,0 +1,46 @@
+.container,
+.container_no_padding {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.container {
+/*    padding-left: 15px;*/
+/*    padding-right: 15px;*/
+}
+
+.container .remove_padding {
+/*    margin-left: -15px;*/
+/*    margin-right: -15px;*/
+}
+
+@media screen and (min-width: 480px) {
+
+    .container {
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+
+    .container .remove_padding {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        padding-left: 50px!important;
+        padding-right: 50px!important;
+    }
+
+    .container .remove_padding {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+
+}

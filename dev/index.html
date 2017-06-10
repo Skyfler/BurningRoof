@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>BurningRoof</title>
+	<!--<link rel="shortcut icon" href="img/favicon.png" type="image/png">-->
+	<link rel="stylesheet" href="css/stylesheet.min.css">
+	<!--[if IE 7]>
+	<link type="text/css" rel="stylesheet" href="css/font-awesome-ie7.min.css">
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="scripts/css3-mediaqueries.js"></script>
+	<script src="scripts/aight.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="main flex flex-center-v">
+		<div class="container main_inner_container">
+			<div class="center_block_container">
+				<header>
+					<div class="logo_container">
+						<a href="/">
+							<img src="img/logo.png" alt="" class="responsive_img">
+							<img src="img/logo_text.png" alt="" class="responsive_img">
+						</a>
+					</div>
+
+					<button class="menu_btn" data-popup-open="menu" data-popup-close="all">
+						<span class="decor_line"></span>
+						<span class="decor_line"></span>
+						<span class="decor_line"></span>
+					</button>
+				</header>
+
+				<div class="flex-nowrap center_block flex-center-v">
+
+					<a href="projects.html" class="projects_btn"><span>projects</span></a>
+
+					<div class="slider_container">
+						<div class="slider" id="main_slider">
+							<div class="overflow_hidden_container">
+								<div class="overflow_block clr">
+									<div class="slider_slide slide_1" data-component="slide"></div>
+								</div>
+							</div>
+							<a class="arrow next_arrow" data-component="slider_control" data-action="forward"></a>
+						</div>
+						<div class="slider_top_layer_container flex flex-center-v">
+							<div class="slider_top_text_block">
+								<div class="title">Digital agency</div>
+								<div class="description">
+									<div>we move your ideas</div>
+									<div>towards creative design solution</div>
+								</div>
+								<button class="about_us_btn" data-popup-open="about_us" data-popup-close="about_us">what we do</button>
+							</div>
+						</div>
+					</div>
+
+					<button class="contacts_btn" data-popup-open="contacts" data-popup-close="contacts"><span>Contacts</span></button>
+
+				</div>
+			</div>
+		</div>
+
+		<footer class="flex flex-center-v">
+			<div class="copyright">2016. BurningRoof</div>
+		</footer>
+	</div>
+	<div class="popups_container">
+		<div class="menu_popup popup flex flex-center-v">
+			<div class="content">
+				<ul class="main_menu content_inner">
+					<li class="animate_item"><a href="/">home</a></li>
+					<li class="animate_item"><a href="#" data-popup-open="about_us" data-popup-close="about_us">What we do</a></li>
+					<li class="animate_item"><a href="projects.html">projects</a></li>
+					<li class="animate_item"><a href="#" data-popup-open="contacts" data-popup-close="contacts">contacts</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="about_us_popup popup flex flex-center-v">
+			<div class="content">
+				<div class="content_inner flex flex-center-v">
+					<div class="title animate_item">What we do</div>
+					<ul class="about_us_list flex">
+						<li class="animate_item">
+							<div class="li_title">ui/ux design</div>
+							<div class="li_description">Our primary concern is how the product feels and logically flows from one step to another</div>
+						</li>
+						<li class="animate_item">
+							<div class="li_title">ecommerce</div>
+							<div class="li_description">Understanding of how your customer will interact with the product is the key</div>
+						</li>
+						<li class="animate_item">
+							<div class="li_title">mobile design</div>
+							<div class="li_description">Today mobile is the majority viewing device and we strive to create the "best" user experience</div>
+						</li>
+						<li class="animate_item">
+							<div class="li_title">Branding/identity</div>
+							<div class="li_description">We will make sure to create trusting relationships between you and your audience</div>
+						</li>
+					</ul>
+					<button class="get_a_quote animate_item" data-popup-open="contacts" data-popup-close="contacts">get a quote</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="contact_popup popup flex flex-center-v">
+			<div class="content">
+				<form action="#" class="contact_form clr content_inner" id="contact_form">
+					<div class="waiting_block"></div>
+					<div class="title animate_item">How we can help?</div>
+					<div class="input_group half_width animate_item">
+						<input type="text" placeholder="Your Name" class="required" name="Name" data-component="form-input">
+					</div>
+					<div class="input_group half_width animate_item">
+						<input type="email" placeholder="Your Email" class="required" name="Email" data-component="form-input">
+					</div>
+					<div class="input_group animate_item">
+						<input type="text" placeholder="Subject" class="required" name="Subject" data-component="form-input">
+					</div>
+					<div class="input_group animate_item">
+						<textarea placeholder="Message" name="Message" data-component="form-input"></textarea>
+					</div>
+					<div class="input_group animate_item">
+						<button type="submit" class="submit">Submit</button>
+					</div>
+				</form>
+
+				<div class="bottom">
+					<div class="contact_info">
+						<div>Kharkiv. Ukraine</div>
+						<div>support@burningroof.com</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="scripts/build.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>BR Projects</title>
+	<!--<link rel="shortcut icon" href="img/favicon.png" type="image/png">-->
+	<link rel="stylesheet" href="css/stylesheet.min.css">
+	<!--[if IE 7]>
+	<link type="text/css" rel="stylesheet" href="css/font-awesome-ie7.min.css">
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="scripts/css3-mediaqueries.js"></script>
+	<script src="scripts/aight.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="projects">
+		<div class="container main_inner_container">
+			<div class="center_block_container">
+				<header>
+					<a href="/" class="back flex flex-center-v flex-center-h"><span>Back</span></a>
+
+					<div class="logo_container">
+						<a href="/">
+							<img src="img/logo.png" alt="" class="responsive_img">
+							<img src="img/logo_text.png" alt="" class="responsive_img">
+						</a>
+					</div>
+
+					<button class="get_a_quote_header" data-popup-open="contacts" data-popup-close="contacts">get a quote</button>
+
+					<button class="menu_btn" data-popup-open="menu" data-popup-close="all">
+						<span class="decor_line"></span>
+						<span class="decor_line"></span>
+						<span class="decor_line"></span>
+					</button>
+				</header>
+
+				<div class="center_block">
+					<div class="title">few our works</div>
+					<div class="project_blocks_container flex">
+						<div class="project_block">
+							<img src="img/projects/uit.png" alt="" class="responsive_img">
+						</div>
+						<div class="project_block">
+							<img src="img/projects/ascon.png" alt="" class="responsive_img">
+						</div>
+						<div class="project_block">
+							<img src="img/projects/state42.png" alt="" class="responsive_img">
+						</div>
+						<div class="project_block" data-popup-open="nike" data-popup-close="nike">
+							<img src="img/projects/nike.png" alt="" class="responsive_img">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="flex flex-center-v">
+			<div class="copyright">2016. BurningRoof</div>
+		</footer>
+	</div>
+	<div class="popups_container">
+		<div class="project_popup popup flex" data-popup-name="nike">
+			<div class="content container">
+				<div class="content_inner container">
+					<img src="img/projects/nike1.png" alt="" class="responsive_img">
+					<img src="img/projects/nike2.png" alt="" class="responsive_img">
+					<img src="img/projects/nike3.png" alt="" class="responsive_img">
+					<img src="img/projects/nike4.png" alt="" class="responsive_img">
+				</div>
+			</div>
+		</div>
+
+<!--
+		<div class="project_popup popup flex" data-popup-name="ascon">
+			<div class="content container">
+				<div class="content_inner container">
+					<img src="img/projects/nike4.png" alt="" class="responsive_img">
+					<img src="img/projects/nike3.png" alt="" class="responsive_img">
+					<img src="img/projects/nike2.png" alt="" class="responsive_img">
+					<img src="img/projects/nike1.png" alt="" class="responsive_img">
+				</div>
+			</div>
+		</div>
+-->
+
+		<div class="menu_popup popup flex flex-center-v">
+			<div class="content">
+				<ul class="main_menu content_inner">
+					<li class="animate_item"><a href="/">home</a></li>
+					<li class="animate_item"><a href="#" data-popup-open="about_us" data-popup-close="about_us">What we do</a></li>
+					<li class="animate_item"><a href="projects.html">projects</a></li>
+					<li class="animate_item"><a href="#" data-popup-open="contacts" data-popup-close="contacts">contacts</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="about_us_popup popup flex flex-center-v">
+			<div class="content">
+				<div class="content_inner flex flex-center-v">
+					<div class="title animate_item">What we do</div>
+					<ul class="about_us_list flex">
+						<li class="animate_item">
+							<div class="li_title">ui/ux design</div>
+							<div class="li_description">Our primary concern is how the product feels and logically flows from one step to another</div>
+						</li>
+						<li class="animate_item">
+							<div class="li_title">ecommerce</div>
+							<div class="li_description">Understanding of how your customer will interact with the product is the key</div>
+						</li>
+						<li class="animate_item">
+							<div class="li_title">mobile design</div>
+							<div class="li_description">Today mobile is the majority viewing device and we strive to create the "best" user experience</div>
+						</li>
+						<li class="animate_item">
+							<div class="li_title">Branding/identity</div>
+							<div class="li_description">We will make sure to create trusting relationships between you and your audience</div>
+						</li>
+					</ul>
+					<button class="get_a_quote animate_item" data-popup-open="contacts" data-popup-close="contacts">get a quote</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="contact_popup popup flex flex-center-v">
+			<div class="content">
+				<form action="#" class="contact_form clr content_inner" id="contact_form">
+					<div class="waiting_block"></div>
+					<div class="title animate_item">How we can help?</div>
+					<div class="input_group half_width animate_item">
+						<input type="text" placeholder="Your Name" class="required" name="Name" data-component="form-input">
+					</div>
+					<div class="input_group half_width animate_item">
+						<input type="email" placeholder="Your Email" class="required" name="Email" data-component="form-input">
+					</div>
+					<div class="input_group animate_item">
+						<input type="text" placeholder="Subject" class="required" name="Subject" data-component="form-input">
+					</div>
+					<div class="input_group animate_item">
+						<textarea placeholder="Message" name="Message" data-component="form-input"></textarea>
+					</div>
+					<div class="input_group animate_item">
+						<button type="submit" class="submit">Submit</button>
+					</div>
+				</form>
+
+				<div class="bottom">
+					<div class="contact_info">
+						<div>Kharkiv. Ukraine</div>
+						<div>support@burningroof.com</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="scripts/build.min.js"></script>
+</body>
+</html>
